@@ -39,9 +39,9 @@ namespace RootMotion.Demos {
 			// Physics materials
 			zeroFrictionMaterial = new PhysicMaterial();
 			zeroFrictionMaterial.dynamicFriction = 0f;
-			zeroFrictionMaterial.dynamicFriction2 = 0f;
+			//zeroFrictionMaterial.dynamicFriction2 = 0f;
 			zeroFrictionMaterial.staticFriction = 0f;
-			zeroFrictionMaterial.staticFriction2 = 0f;
+			//zeroFrictionMaterial.staticFriction2 = 0f;
 			zeroFrictionMaterial.frictionCombine = PhysicMaterialCombine.Minimum;
 			zeroFrictionMaterial.bounciness = 0f;
 			zeroFrictionMaterial.bounceCombine = PhysicMaterialCombine.Minimum;
